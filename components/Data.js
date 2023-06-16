@@ -39,4 +39,12 @@ export const projectData = [
       gitHubLinkFront: 'https://github.com/cecileliao/TweeterClone-frontend',
       gitHubLinkBack: 'https://github.com/cecileliao/TweeterClone-backend',
     },
+    {
+      id: 6,
+      title: 'Weather website',
+      description:
+        'A simple weather website built with JavaScript and React. It helps users get the weather from selected city',
+      gitHubLinkFront: 'https://github.com/cecileliao/weatherapp-frontend',
+      gitHubLinkBack: 'https://github.com/cecileliao/weatherapp-backend',
+    },
   ];
