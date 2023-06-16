@@ -15,7 +15,7 @@ const Projects = () => {
                 <a href={project.gitHubLinkBack}>Back: <i className={`fa-brands fa-github ${styles.githubIcon}`}></i></a>
               </div>
             </div>
-            <h3 className={styles.h3}>{project.title}</h3>
+            <a href={project.vercelLink}><h3 className={styles.h3}>{project.title}</h3></a>
             <p className={styles.p}>{project.description}</p>
           </div>
         ))}
