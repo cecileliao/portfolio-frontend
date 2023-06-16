@@ -1,0 +1,62 @@
+/* About */
+.aboutContainer {
+    padding: 2rem 0;
+}
+
+.h2 {
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+.flexAbout {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 0 2rem;
+}
+
+.aboutText {
+    width: 50%;
+}
+
+.p {
+    font-size: 0.9rem;
+    font-weight: 400;
+    margin-bottom: 0.9rem;
+}
+
+.aboutImg {
+    width: 50%;
+}
+
+.image {
+    overflow: hidden;
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+    border: 2px solid #DADADB;
+    filter: grayscale(100%);
+    transition: all 0.5s ease-in-out;
+    cursor: cell;
+}
+
+.image:hover {
+    filter: grayscale(0%);
+    transform: scale(1.02);
+}
+
+@media screen and (max-width: 768px) {
+.flexAbout {
+    flex-direction: column;
+}
+
+.aboutText {
+    width: 100%;
+}
+
+.aboutImg {
+    width: 100%;
+}
+}
+  

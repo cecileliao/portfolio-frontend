@@ -1,0 +1,64 @@
+/* Skills */
+.skillsContainer {
+    padding: 2rem 0;
+  }
+  
+  .h2 {
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+  }
+  
+  .gridSkills {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2rem;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .gridSkills {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  
+  .skillCard {
+    background-color: #DADADB;
+    color: #1D1E20;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0 1rem;
+    padding: 1rem;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    transition: all 0.5s ease-in-out;
+    cursor: context-menu;
+  }
+  
+  .i {
+    font-size: 1.5rem;
+  }
+  
+  .html:hover {
+    background-color: #E34F26;
+  }
+  
+  .css:hover {
+    background-color: #264DE4;
+  }
+  
+  .js:hover {
+    background-color: #F7DF1E;
+  }
+  
+  .react:hover {
+    background-color: #61DAFB;
+  }
+  
+  .node:hover {
+    background-color: #339933;
+  }
+  
+  .figma:hover {
+    background-color: #9C56F6;
+  }
