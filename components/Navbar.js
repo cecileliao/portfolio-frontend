@@ -22,18 +22,18 @@ const Navbar = () => {
           </Link>
         </div>
         <div className={styles.menu}>
-          <Link href="/About" className={styles.link}>
+          <a href="#about" className={styles.link}>
             About me
-          </Link>
-          <Link href="/Skills" className={styles.link}>
+          </a>
+          <a href="#skills" className={styles.link}>
             Skills
-          </Link>
-          <Link href="/Projects" className={styles.link}>
+          </a>
+          <a href="#projects" className={styles.link}>
             Projects
-          </Link>
-          <Link href="/Contact" className={styles.link}>
+          </a>
+          <a href="#contact" className={styles.link}>
             Get in touch
-          </Link>
+          </a>
         </div>
         <button className={styles.ctaBtn} onClick={handleDownload}>
           Resume
