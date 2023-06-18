@@ -15,7 +15,7 @@ export const projectData = [
         'A simple Latest News website built with JavaScript and React. It helps users to read the latest news and to save them in case they want to read it later.',
       gitHubLinkFront: 'https://github.com/cecileliao/morningnews-frontend',
       gitHubLinkBack: 'https://github.com/cecileliao/morningnews-backend',
-      vercelLink: 'https://morningnews-frontend-six.vercel.app/',
+      vercelLink: 'https://morningnews-frontend-cecileliao.vercel.app/',
     },
     {
       id: 3,
@@ -24,7 +24,7 @@ export const projectData = [
         'A simple Latest Movies website built with JavaScript. It helps users to list the latest released movies and to add them to a list of favorite movies',
       gitHubLinkFront: 'https://github.com/cecileliao/mymoviz-frontend',
       gitHubLinkBack: 'https://github.com/cecileliao/mymoviz-backend',
-      vercelLink: 'https://mymoviz-frontend-chi.vercel.app/',
+      vercelLink: 'https://mymoviz-frontend-cecileliao.vercel.app/',
     },
     {
       id: 4,
@@ -42,7 +42,7 @@ export const projectData = [
         'A simple Twitter clone website built with JavaScript and React. It helps users send a tweet and save the trends with #',
       gitHubLinkFront: 'https://github.com/cecileliao/TweeterClone-frontend',
       gitHubLinkBack: 'https://github.com/cecileliao/TweeterClone-backend',
-      vercelLink: 'https://tweeter-clone-frontend.vercel.app/',
+      vercelLink: 'https://tweeter-clone-frontend-cecileliao.vercel.app/',
     },
     {
       id: 6,
@@ -51,6 +51,6 @@ export const projectData = [
         'A simple weather website built with JavaScript and React. It helps users get the weather from selected city',
       gitHubLinkFront: 'https://github.com/cecileliao/weatherapp-frontend',
       gitHubLinkBack: 'https://github.com/cecileliao/weatherapp-backend',
-      vercelLink: 'https://weatherapp-frontend-theta.vercel.app/',
+      vercelLink: 'https://weatherapp-frontend-cecileliao.vercel.app/',
     },
   ];
