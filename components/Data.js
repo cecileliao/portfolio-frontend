@@ -6,7 +6,8 @@ export const projectData = [
         'Nanie is a Mobile App built with JavaScript, React Native and Expo. Nanie offers to provide occasional assistance to families in caring for their elderly loved ones when they have the daily responsibility. It connects individuals responsible for aging/dependent parents with caregivers to provide relief and support in taking care of them.',
       gitHubLinkFront: 'https://github.com/cecileliao/nanie-frontend',
       gitHubLinkBack: 'https://github.com/cecileliao/nanie-backend',
-      vercelLink: 'https://expo.dev/%40cecileliao/nanie?serviceType=eas&distribution=expo-go&scheme=exp%2Bnanie&channel=main&sdkVersion=48.0.0'
+      vercelLink: 'https://expo.dev/%40cecileliao/nanie?serviceType=eas&distribution=expo-go&scheme=exp%2Bnanie&channel=main&sdkVersion=48.0.0',
+      flipVideo: '/NanieShortVideo.mp4',
     },
     {
       id: 2,
@@ -16,6 +17,7 @@ export const projectData = [
       gitHubLinkFront: 'https://github.com/cecileliao/morningnews-frontend',
       gitHubLinkBack: 'https://github.com/cecileliao/morningnews-backend',
       vercelLink: 'https://morningnews-frontend-cecileliao.vercel.app/',
+      flipImage: '/MorningNewsImage.png'
     },
     {
       id: 3,
@@ -25,6 +27,7 @@ export const projectData = [
       gitHubLinkFront: 'https://github.com/cecileliao/mymoviz-frontend',
       gitHubLinkBack: 'https://github.com/cecileliao/mymoviz-backend',
       vercelLink: 'https://mymoviz-frontend-cecileliao.vercel.app/',
+      flipImage: '/MyMovizImage.png'
     },
     {
       id: 4,
@@ -43,6 +46,7 @@ export const projectData = [
       gitHubLinkFront: 'https://github.com/cecileliao/TweeterClone-frontend',
       gitHubLinkBack: 'https://github.com/cecileliao/TweeterClone-backend',
       vercelLink: 'https://tweeter-clone-frontend-cecileliao.vercel.app/',
+      flipImage: '/TweeterCloneImage.png'
     },
     {
       id: 6,
@@ -52,5 +56,6 @@ export const projectData = [
       gitHubLinkFront: 'https://github.com/cecileliao/weatherapp-frontend',
       gitHubLinkBack: 'https://github.com/cecileliao/weatherapp-backend',
       vercelLink: 'https://weatherapp-frontend-cecileliao.vercel.app/',
+      flipImage: '/WeatherAppImage.png'
     },
   ];

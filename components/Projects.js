@@ -1,3 +1,5 @@
+import React from 'react';
+import Image from 'next/image';
 import styles from '../styles/Projects.module.css';
 import { projectData } from './Data';
 
@@ -16,7 +18,28 @@ const Projects = () => {
               </div>
             </div>
             <a href={project.vercelLink}><h3 className={styles.h3}>{project.title}</h3></a>
-            <p className={styles.p}>{project.description}</p>
+            <div className={styles.flipCard}>
+              <div className={styles.flipCardInner}>
+                <div className={styles.flipCardFront}>
+                <p className={styles.p}>{project.description}</p>
+                </div>
+                <div className={styles.flipCardBack}>
+                  {project.flipVideo ? (
+                    <video className={styles.video} controls>
+                      <source src={project.flipVideo} type="video/mp4" />
+                    </video>
+                  ) : (
+                    <Image
+                      src={project.flipImage}
+                      alt={project.flipAlt}
+                      style={{backgroundSize: 'contain'}}
+                      width={380}
+                      height={200}
+                    />
+                  )}
+                </div>
+              </div>
+            </div>
           </div>
         ))}
       </div>
