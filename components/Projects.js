@@ -32,7 +32,7 @@ const Projects = () => {
                     <Image
                       src={project.flipImage}
                       alt={project.flipAlt}
-                      style={{backgroundSize: 'contain'}}
+                      className={styles.image}
                       width={380}
                       height={200}
                     />

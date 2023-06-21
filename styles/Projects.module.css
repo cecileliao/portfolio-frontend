@@ -104,7 +104,21 @@ color: #b3b3b3;
     transform: rotateY(180deg);
   }
 
+  .image {
+    width: 100%;
+    height: auto;
+  }
+
   .video {
     width: 380px;
     height: 200px;
   }
+
+  @media screen and (max-width: 500px) {
+    .video {
+      width: 280px;
+    };
+    .image{
+      width: 280px;
+    }
+    }
