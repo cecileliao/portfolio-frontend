@@ -37,7 +37,7 @@ export const projectData = [
       gitHubLinkFront: 'https://github.com/cecileliao/locapic-frontend',
       gitHubLinkBack: 'https://github.com/cecileliao/locapic-backend',
       vercelLink: 'https://expo.dev/%40cecileliao/locapic?serviceType=eas&distribution=expo-go&scheme=exp%2Blocapic&channel=main&sdkVersion=48.0.0',
-      flipVideo: '/Locapic.mp4'
+      flipVideo: '/Locapic.mp4',
     },
     {
       id: 5,
