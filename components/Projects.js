@@ -25,7 +25,7 @@ const Projects = () => {
                 </div>
                 <div className={styles.flipCardBack}>
                   {project.flipVideo ? (
-                    <video className={styles.video} controls autoPlay>
+                    <video className={styles.video} controls autoPlay muted>
                       <source src={project.flipVideo} type="video/mp4" />
                     </video>
                   ) : (
